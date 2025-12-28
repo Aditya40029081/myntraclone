@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+header {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b6b1b1;
+}
+.myntralogo {
+    height: 36px;
+}
+.logo{
+    margin-left: 4%;
+}
+.action{
+    margin-right: 4%;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.navbar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #2b2c3f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 30px 0;
+}
+.navbar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+sup {
+    color: #ff3f6c;
+}
+.searchbar{
+    height: 40px;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.searchicon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+}
+.searchbarr{
+    color: #f5f5f6;
+    background-color: #f5f5f6;
+    flex-grow: 1;  
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+.actionbar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    margin-right: 4%;
+}
+.actioncontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bannercontainer{
+    margin:40px 0;
+}
+.banner{
+    width: 100%;
+}
+.categoryheading{
+    letter-spacing: .15em;
+    font-weight: 700;
+    height: 100px;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    font-weight: bolder;
+    display: flex;
+}
+.categoryitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.saleitem{
+    width: 250px;
+}
+.categoryheadingg{
+    letter-spacing: .15em;
+    font-weight: 700;
+    height: 100px;
+    font-size: xx-large;
+    justify-content: center;
+    margin-left: 10%;
+    font-weight: bolder;
+    display: flex;
+    }
+.saleitemm{
+    width: 250px;
+}
+.footercontainer{
+    padding: 30px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footercolumn{
+    display: flex;
+    flex-direction: column; 
+}
+.footercolumn a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+}
+.copyright{
+    text-align: end;
+}
